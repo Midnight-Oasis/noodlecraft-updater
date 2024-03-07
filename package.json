@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc && node dist/index.js",
     "build": "tsc",
-    "package": "pkg dist/index.js --out-path bin",
+    "package": "pkg dist/index.js -o noodlecraft-updater.exe",
     "build-and-package": "pnpm run build && pnpm run package",
     "test": "echo \"Error: no test specified\" && exit 1",
     "show-config": "ts-node --showConfig src/index.ts"
