@@ -1,6 +1,7 @@
 dist/app
 node_modules
-
 build
 .ts-node
+output
+dist
 output

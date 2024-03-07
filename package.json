@@ -4,9 +4,8 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "start": "tsc && node dist/app/index.js",
-    "build": "tsc --outDir dist/app",
-    "create-release-win": "powershell -Command cp dist ouput/noodlecraft-updater-v1.0.0",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc --outDir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "show-config": "ts-node --showConfig src/index.ts"
   },
